@@ -16,7 +16,7 @@ for i in range(30):
             g = str(i)
             letters.append(g)
             i += 1
-    username = "".join(random.choices(letters,k = 3)) ///here you change the number of letters of the Name in k=3...
+    username = "".join(random.choices(letters,k = 3)) 
     url = f"https://api.mojang.com/users/profiles/minecraft/{username}?at=0"
     proxy_info = open('proxy.txt', 'r').read().splitlines()
     proxy = random.choice(proxy_info)
