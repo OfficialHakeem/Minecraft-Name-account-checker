@@ -1,0 +1,2 @@
+Add here your proxies only http
+Example for skids -> 98.173.95.42:8001
